@@ -3,7 +3,13 @@
 
 @import "{{ site.theme }}";
 
+/* Put any custom CSS here */
+
 .page-header {
   background-image: none;
   background-color: #993333;
+}
+
+h1 {
+  font-weight:normal;
 }
