@@ -5,11 +5,12 @@
 
 /* Put any custom CSS here */
 
+/* Overrides for default theme css */
 .page-header {
   background-image: none;
   background-color: #993333;
+  padding: 2rem 0;
 }
-
 h1 {
   font-weight:normal;
 }
