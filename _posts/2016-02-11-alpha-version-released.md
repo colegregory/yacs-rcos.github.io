@@ -18,9 +18,9 @@ The General Release is planned for the end of the semester, and that'll be the p
 
 Now that we've released our alpha, we're looking to open YACS to testing from RCOS students so we can identify problems that didn't come up during our development. I'm anticipating that many problems and complaints will come out of this to keep us busy for the time being, so keep an eye out for more updates here.
 
-![departments screenshot](assets/screen-shot-2016-02-11-at-09-13-231.png)
-![courses screenshot](assets/screen-shot-2016-02-11-at-09-14-39.png)
-![schedule screenshot](assets/screen-shot-2016-02-11-at-09-15-47.png)
+![departments screenshot](assets/images/screen-shot-2016-02-11-at-09-13-231.png)
+![courses screenshot](assets/images/screen-shot-2016-02-11-at-09-14-39.png)
+![schedule screenshot](assets/images/screen-shot-2016-02-11-at-09-15-47.png)
 
 (Note that these screenshots show Spring 2016 courses. The registrar hasn't released next semester's data yet.)
 

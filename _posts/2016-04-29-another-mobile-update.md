@@ -13,5 +13,5 @@ Currently the course list view is just a functional way to select courses. Thing
 1. Change each cell to have a better custom view ( currently it's a single text field with a single string) -> (Each section / seats / instructor will have it's own text field.)
 2. Add a custom view to the section header ( currently it's a single line with the course name) ->( course name / code / a button to select all sections / a button to display information.)
 
-![departments screenshot](assets/screen-shot-2016-04-29-at-4-05-46-pm.png){: width="300px"}
-![courses screenshot](assets/screen-shot-2016-04-29-at-4-01-58-pm.png){: width="300px"}
+![departments screenshot](assets/images/screen-shot-2016-04-29-at-4-05-46-pm.png){: width="300px"}
+![courses screenshot](assets/images/screen-shot-2016-04-29-at-4-01-58-pm.png){: width="300px"}
