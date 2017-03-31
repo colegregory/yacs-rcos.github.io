@@ -1,1 +1,12 @@
-theme: jekyll-theme-cayman
+destination: "_site"
+timezone: "America/New York"
+port: 4000
+exclude: [.gitignore, post_template.md]
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      type: "post"
+      layout: "post"
+      author: "The YACS Dev Team"
