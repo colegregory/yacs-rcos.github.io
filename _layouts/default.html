@@ -1,26 +1,46 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-us">
   <head>
     <meta charset="UTF-8">
-    <title>{{ page.title | default: site.title }}</title>
-    <meta name="description" content="{{ page.description | default: site.description | default: site.github.project_tagline }}"/>
+    <title>YACS Blog</title>
+    <meta name="description" content="YACS Development Blog"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:200,400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:100,400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="shortcut icon" href="/assets/favicon.ico">
   </head>
   <body>
-    <section class="page-header">
-      <h1 class="project-name">YACS Blog</h1>
-    </section>
+    {% include page-header.html %}
+    <!-- TODO: add site navigation here -->
 
     <section class="main-content">
-      {{ content }}
+      {% for post in site.posts %}
+      {% assign author = site.data.devs[post.author] %}
+      <section class="post">
+        <header class="post-header">
+          <h2>{{ post.title }}</h2>
+          <div class="devsummary">
+            <div class="devdetails">
+              <p>{{ author.blogname }}</p>
+              <p>{{ post.date | date: "%B %-d, %Y" }}</p>
+            </div>
+            <img class="avatar" src="https://github.com/{{ author.github }}.png" alt="{{post.author}}">
+          </div>
+        </header>
+        <article class="post-body">
+        <!-- {{ post.excerpt }} -->
+          {{ post.content }}
+        </article>
+      </section>
+      {% endfor %}
 
-      <footer class="site-footer">
-        <span class="site-footer-credits">YACS is a member of the <a href="https://rcos.io">Rensselaer Center for Open Source</a>.</span>
-      </footer>
+      {% include page-footer.html %}
     </section>
   </body>
 </html>
-
+<!--
+<div> This is content </div>
+{% for post in site.posts limit:1 %}
+<strong>{{ post.title }}</strong>
+{% endfor %}
+-->
