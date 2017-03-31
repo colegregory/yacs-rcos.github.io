@@ -1,0 +1,40 @@
+Richie:
+  blogname: Richi Young
+  github: Bad-Science
+
+Cameron:
+  blogname: Cameron
+  github: copperwater
+
+Mark:
+  blogname: Mark Robinson
+  github: robinm8
+
+Ayushi:
+  blogname: Ayushi Mishra
+  github: yushyush
+
+Ryan:
+  blogname: Ryan Stillings
+  github: rystills
+
+Rutvik:
+  blogname: Rutvik Manohar
+  github: rvm2113
+
+Kathleen:
+  blogname: Kathleen Burkhardt
+  github: kburk1997
+
+Arijit:
+  blogname: Arijit Deb
+  github: digitalninja
+
+James:
+  blogname: James Grippo
+  github: jgrippo
+
+# catch-all for a missing author: default will be this
+The YACS Dev Team:
+  blogname: The YACS Dev Team
+  github: YACS-RCOS

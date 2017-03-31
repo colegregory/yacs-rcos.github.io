@@ -1,0 +1,60 @@
+@import "jekyll-theme-cayman";
+
+/* Put any custom CSS here */
+
+/* Overrides for default theme css
+.page-header {
+  background-image: none;
+  background-color: #993333;
+  padding: 2rem 0;
+}
+h1 {
+  font-weight:normal;
+}
+.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
+  color: black;
+}
+a {
+  color: #993333;
+}
+*/
+
+/* Styles for things defined only in our pages, not by the theme. */
+header.post-header {
+  display:block;
+  overflow:auto;
+  width:100%;
+  h2 {
+    float:left;
+  }
+  border-bottom: 1px $horizontal-rule-color solid;
+}
+div.devsummary {
+  display:table-row;
+  float:right;
+}
+div.devdetails {
+  display:inline-block;
+  text-align:right;
+  vertical-align:top;
+  padding-right: 0.4em;
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+img.avatar {
+  width:3.5rem;
+  min-height:3.5rem;
+  display:inline-block;
+  // border:3px black solid;
+  // for alt text
+  font-size:60%;
+  font-variant:small-caps;
+  text-align:center;
+}
+article.post-body {
+  padding-top: 0.4em;
+  margin-bottom: 1em;
+  border-bottom: 1px $horizontal-rule-color solid;
+}
