@@ -1,23 +1,6 @@
-@import "jekyll-theme-cayman";
+@import "yacs-cayman";
 
 /* Put any custom CSS here */
-
-/* Overrides for default theme css
-.page-header {
-  background-image: none;
-  background-color: #993333;
-  padding: 2rem 0;
-}
-h1 {
-  font-weight:normal;
-}
-.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
-  color: black;
-}
-a {
-  color: #993333;
-}
-*/
 
 /* Styles for things defined only in our pages, not by the theme. */
 header.post-header {
@@ -55,6 +38,6 @@ img.avatar {
 }
 article.post-body {
   padding-top: 0.4em;
-  margin-bottom: 1em;
+  margin-bottom: 3em;
   border-bottom: 1px $horizontal-rule-color solid;
 }
