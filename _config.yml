@@ -2,6 +2,7 @@ destination: "_site"
 timezone: "America/New York"
 port: 4000
 exclude: [.gitignore, post_template.md]
+permalink: "/:year/:title.html"
 defaults:
   -
     scope:

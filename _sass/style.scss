@@ -1,8 +1,7 @@
 @import "yacs-cayman";
 
-/* Put any custom CSS here */
-
 /* Styles for things defined only in our pages, not by the theme. */
+// Main page
 header.post-header {
   display:block;
   overflow:auto;
@@ -40,4 +39,9 @@ article.post-body {
   padding-top: 0.4em;
   margin-bottom: 3em;
   border-bottom: 1px $horizontal-rule-color solid;
+}
+
+// Archive page
+ul#archive-list {
+  list-style-type:none;
 }

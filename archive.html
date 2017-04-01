@@ -1,0 +1,25 @@
+---
+---
+<!doctype html>
+<html lang="en-us">
+  {% assign pageTitle = "YACS Blog Archive" %}
+  {% include head.html %}
+  <body>
+    {% include page-header.html %}
+
+    <section class="main-content">
+      <h1>Blog Post Archive</h1>
+      <ul id="archive-list">
+        {% for post in site.posts %}
+        <li>
+          <a href="{{ post.id }}">
+            {{ post.date | date: "%B %-d, %Y" }}: {{ post.title }}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+
+      {% include page-footer.html %}
+    </section>
+  </body>
+</html>
