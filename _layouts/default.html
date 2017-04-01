@@ -6,9 +6,11 @@
     {% include page-header.html %}
 
     <section class="main-content">
-      {% for post in site.posts %}
+      {% for post in site.posts limit:10 %}
         {% include post-template.html %}
       {% endfor %}
+
+      <aside class="earlier-posts">Looking for earlier posts? Browse the <a href="/archive.html">full archive</a>.</aside>
 
       {% include page-footer.html %}
     </section>
