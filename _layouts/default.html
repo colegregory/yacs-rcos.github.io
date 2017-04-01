@@ -1,17 +1,9 @@
 <!doctype html>
 <html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>YACS Blog</title>
-    <meta name="description" content="YACS Development Blog"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:100,400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="shortcut icon" href="/assets/favicon.ico">
-  </head>
+  {% assign pageTitle = "YACS Blog" %}
+  {% include head.html %}
   <body>
     {% include page-header.html %}
-    <!-- TODO: add site navigation here -->
 
     <section class="main-content">
       {% for post in site.posts %}
@@ -38,9 +30,3 @@
     </section>
   </body>
 </html>
-<!--
-<div> This is content </div>
-{% for post in site.posts limit:1 %}
-<strong>{{ post.title }}</strong>
-{% endfor %}
--->

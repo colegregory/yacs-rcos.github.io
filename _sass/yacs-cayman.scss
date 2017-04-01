@@ -105,6 +105,12 @@ a {
 
   h1 {
     font-weight: 100;
+    a {
+      color: inherit;
+      &:hover {
+        text-decoration:none;
+      }
+    }
   }
 }
 
