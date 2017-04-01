@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Admin Panel Progress
+title: Admin Panel Progress 2
 date: 2017-03-22 00:35:33.000000000 -04:00
 type: post
 author: Kathleen
