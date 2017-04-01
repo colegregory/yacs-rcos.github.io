@@ -1,0 +1,17 @@
+<!-- Expects "post" to be defined with the attendant variables. -->
+{% assign author = site.data.devs[post.author] %}
+<section class="post">
+  <header class="post-header">
+    <h2>{{ post.title }}</h2>
+    <div class="devsummary">
+      <div class="devdetails">
+        <p>{{ author.blogname }}</p>
+        <p>{{ post.date | date: "%B %-d, %Y" }}</p>
+      </div>
+      <img class="avatar" src="https://github.com/{{ author.github }}.png" alt="{{post.author}}">
+    </div>
+  </header>
+  <article class="post-body">
+    {{ post.content }}
+  </article>
+</section>
