@@ -1,6 +1,25 @@
 @import "yacs-cayman";
 
 /* Styles for things defined only in our pages, not by the theme. */
+// All pages
+nav.page-nav {
+  font-variant:small-caps;
+  font-size:120%;
+  ul {
+    list-style-type: none;
+    // display: inline;
+    width: 50%;
+    text-align: justify;
+    margin: 0.5em auto;
+    li {
+      display: inline-block;
+      width: 30%;
+      text-align: center;
+      // padding: 0 2em;
+    }
+  }
+}
+
 // Main page
 header.post-header {
   display:block;
