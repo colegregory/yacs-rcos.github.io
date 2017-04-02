@@ -67,13 +67,14 @@ dateonly=$(echo $timestamp | sed 's/ .*$//g')
 convtitle=$(echo $title | awk '{print tolower($0)}' | sed 's/ /-/g')
 destfile="_posts/$dateonly-$convtitle.md"
 
+cp -i $postsrc $destfile
+echo "Successfully copied into _posts."
+
 read -p "Remove your original file? [yN] " yn
 case $yn in
-  [Nn]*|* ) op="cp";;
-  [Yy]* ) op="mv"
+  [Yy]* ) rm $postsrc
 esac
 
-$op $postsrc $destfile
 sed -i "s/^date: .*$/date: $timestamp/" $destfile
 
 # echo $timestamp
