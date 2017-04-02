@@ -8,7 +8,7 @@ author: Richie
 
 I'd like to dedicate a post to the state of the various maintenance tasks we've created thus far. We have created a small suite of tasks for keeping our database up to date. Before I dive into that, I must first outline an interface we have created.
 
-In an effort to make YACS easily portable to other institutions, we have abstracted the details of loading data from RPI's registrar to an interface called `1`. This interface contains several methods for populating and updating the database. We then implement this interface in a class `Catalog::RpiAdapter`. An instance of this class is created in a config file, and stored within the Rails configuration interface.
+In an effort to make YACS easily portable to other institutions, we have abstracted the details of loading data from RPI's registrar to an interface called `Catalog::AbstractAdapter`. This interface contains several methods for populating and updating the database. We then implement this interface in a class `Catalog::RpiAdapter`. An instance of this class is created in a config file, and stored within the Rails configuration interface.
 
 I've also created a suite of rake tasks within the namespace catalog for calling methods of this instance from the command line. Formal documentation of these tasks can be expected (eventually). I've also created "cron jobs" to call some of these methods, namely updating the seat counts of each section, at regular intervals. For this we use [crono](https://github.com/plashchynski/crono), a pure-ruby cron-like job scheduling utility. This is to avoid having a system-level dependency on cron.
 
