@@ -18,5 +18,5 @@ The schedule will remain mostly the same, but it will use a pure HTML table to d
 
 This is the sketch I drew up with our proposed UI:
 
-![site mockup](assets/images/yacs_interface_proposed_final_sketch.png)
+![site mockup](/assets/images/yacs_interface_proposed_final_sketch.png)
 
