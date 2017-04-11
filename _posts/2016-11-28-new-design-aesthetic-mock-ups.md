@@ -20,10 +20,10 @@ Elements of accessibility also play into our aesthetic. We are want to appeal to
 
 In this post, we are attaching the designs we are striving to implement. These designs are strictly related to course listings and individual course elements. After these are fully implemented, we will work on Schedule view mock-ups.
 
-![course list mockup](assets/images/courses_list_mockuprough-final-01.png)
+![course list mockup](/assets/images/courses_list_mockuprough-final-01.png)
 
-![course mockup 1](assets/images/single_course_collapsedrough-final-01.png)
-![course mockup 2](assets/images/single_course_collapsedrough-final-02.png)
-![course mockup 3](assets/images/single_course_collapsedrough-final-03.png)
+![course mockup 1](/assets/images/single_course_collapsedrough-final-01.png)
+![course mockup 2](/assets/images/single_course_collapsedrough-final-02.png)
+![course mockup 3](/assets/images/single_course_collapsedrough-final-03.png)
 
-![course expanded mockup](assets/images/single_course_expanded_viewrough-final-01.png)
+![course expanded mockup](/assets/images/single_course_expanded_viewrough-final-01.png)

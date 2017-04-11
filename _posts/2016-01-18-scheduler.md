@@ -26,7 +26,7 @@ If we carefully construct our test data, we can turn this matter into a very eas
 
 The reason we've constructed this very specific test case is because **S** can now be found by the formula:
 
-![equation](assets/images/screen-shot-2016-01-18-at-8-54-43-pm.png)
+![equation](/assets/images/screen-shot-2016-01-18-at-8-54-43-pm.png)
 
 This holds for **n** > **k **> **0**. When **k** = **0**, and when **k** > **n**, **S** should obviously be zero. For our tests, we use **n** = **6** and by varying **k**, we can comprehensively test the scheduling algorithm.
 

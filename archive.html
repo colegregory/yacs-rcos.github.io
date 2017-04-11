@@ -11,15 +11,21 @@ layout:
 
     <section class="main-content">
       <h1>Blog Post Archive</h1>
-      <ul id="archive-list">
+      <table id="archive-list">
         {% for post in site.posts %}
-        <li>
-          <a href="{{ post.id }}">
-            {{ post.date | date: "%B %-d, %Y" }}: {{ post.title }}
-          </a>
-        </li>
+        <tr>
+          <td>
+            <a href="{{ post.id }}"> {{ post.title }}</a>
+          </td>
+          <td>
+            {{ post.date | date: "%B %-d, %Y" }}
+          </td>
+          <td>
+            {{ site.data.devs[post.author].blogname }}
+          </td>
+        </tr>
         {% endfor %}
-      </ul>
+      </table>
 
       {% include page-footer.html %}
     </section>

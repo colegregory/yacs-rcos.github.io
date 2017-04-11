@@ -14,11 +14,11 @@ By Sunday, I had an index page for schools, departments, courses, and sections. 
 
 Below are a few screenshots of the admin panel in action!
 
-![screenshot 1](assets/images/yacs-admin-panel-024.png)
-![screenshot 2](assets/images/yacs-admin-panel-025.png)
-![screenshot 3](assets/images/yacs-admin-panel-026.png)
-![screenshot 4](assets/images/yacs-admin-panel-027.png)
-![screenshot 5](assets/images/yacs-admin-panel-028.png)
+![screenshot 1](/assets/images/yacs-admin-panel-024.png)
+![screenshot 2](/assets/images/yacs-admin-panel-025.png)
+![screenshot 3](/assets/images/yacs-admin-panel-026.png)
+![screenshot 4](/assets/images/yacs-admin-panel-027.png)
+![screenshot 5](/assets/images/yacs-admin-panel-028.png)
 
 Note that the add/edit/delete links do not actually do anything as of now, since those operations are not on the YACS API yet.
 
