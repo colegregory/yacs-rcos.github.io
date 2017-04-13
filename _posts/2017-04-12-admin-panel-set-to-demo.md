@@ -1,5 +1,5 @@
 ---
-layout:post
+layout: post
 type: post
 title: Admin Panel Set to Demo Next Week!
 date: 2017-04-12 15:29:15 -0400
@@ -13,8 +13,8 @@ Testing has been going rather rocky lately, as I have always been running into t
 I still have been unable to solve this bug, so I have been working on other issues in the meantime. Namely, I finally completed forms for each object, so I can have the "new" and "edit" views. This issue has been open for over a month now, and it finally has been completed. However, I still need to figure out adding periods to sections.
 
 Below are a couple images of the new and edit forms in action:
-![http://i.imgur.com/rsYYHqG.png]
-![http://i.imgur.com/ji3LR4f.png]
+![](http://i.imgur.com/rsYYHqG.png)
+![](http://i.imgur.com/ji3LR4f.png)
 
 Speaking of images, I need to put these images in the index page as well as some documentation describing how to use the "New" and "Edit" forms. Now that these forms are done, once I add "create", "update", and "delete" actions to the controllers, I should be able to write full CRUD tests for each object.
 
