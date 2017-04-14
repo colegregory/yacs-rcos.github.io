@@ -1,7 +1,7 @@
 ---
 title: Admin API Update, Create, and Destroy Tests
 date: 2017-04-04 12:04:06 -0400
-author: Rutvik Manohar
+author: Rutvik
 ---
 Hi, YACS! I am Rutvik and I am a new contributor.
 I recently completed and received approval for my
