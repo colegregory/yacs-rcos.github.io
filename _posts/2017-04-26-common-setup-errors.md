@@ -23,6 +23,7 @@ chmod ugo+rwx bin/yacs-dbsetup
 When attempting to setup the YACS database via bin/yacs-dbsetup, you may encounter an error stating that the database is not configured. If this happens, check your YACS git directory. It is likely that you are missing one or more files, including the .env file, which houses the environment configuration. You can compare your current repository with the upstream repo through git via the git diff command, and if necessary, add the missing files or checkout a fresh branch from upstream.
 
 **Database must be empty**
+
 When attempting to populate the YAS database, if you have existing data, you are likely to encounter an error due to a non-empty database. For this error, you will need to empty the database before you repopulate it. To do so, enter the following commands:
 ~~~~
 rake docker-compose run web rake catalog:destroy
