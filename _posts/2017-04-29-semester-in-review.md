@@ -1,5 +1,5 @@
 ---
-layout:post
+layout: post
 type: post
 title: Semester in Review
 date: 2017-04-29 15:46:20 -0400
