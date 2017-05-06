@@ -16,5 +16,5 @@ Towards the end of the semester, I implemented user authentication by
 introducing the usage of a token to validate all requests made
 within the rspec unit tests, and I further migrated and generated a model
 for token generation. While the user authentication tests remain in progress,
-I plan and hope to complete the implementation and continue developing
-with YACS.
+I plan to complete the implementation and continue developing
+with YACS in the future.
