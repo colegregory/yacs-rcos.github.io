@@ -4,7 +4,7 @@ title: YACS Admin: New Semester
 date: 2017-09-26 18:21:20 -0400
 layout: post
 type: post
-author: Kathleen
+author: Kathleen Burkhardt
 ---
 
 Last semester was a great learning experience, and even though the YACS admin kickoff was sloppier than I would have liked, it is returning for another semester!
