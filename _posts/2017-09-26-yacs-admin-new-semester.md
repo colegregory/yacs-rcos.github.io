@@ -1,8 +1,8 @@
 ---
 
+layout: post
 title: YACS Admin: New Semester
 date: 2017-09-26 18:21:20 -0400
-layout: post
 type: post
 author: Kathleen Burkhardt
 ---
