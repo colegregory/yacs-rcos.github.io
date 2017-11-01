@@ -37,7 +37,11 @@ James:
 Alex Z:
   blogname: Alex Zuckut
   github: a-zuckut
-
+  
+Cole:
+  blogname: Cole Gregory
+  github: colegregory
+  
 # catch-all for a missing author: default will be this
 The YACS Dev Team:
   blogname: The YACS Dev Team
