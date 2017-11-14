@@ -1,6 +1,6 @@
 ---
 layout: post
-title: “YACS Admin Update“
+title: YACS Admin Update
 date: 2017-11-01 15:13:12 
 type: post
 author: "Cole"
